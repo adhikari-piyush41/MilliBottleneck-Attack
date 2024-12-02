@@ -1,0 +1,438 @@
+[
+    {
+        "method": "PUT",
+        "path": "/jobs/executions/{executionId}"
+    },
+    {
+        "method": "GET",
+        "path": "/apps/{type}/{name}/{version}"
+    },
+    {
+        "method": "PUT",
+        "path": "/apps/{type}/{name}/{version}"
+    },
+    {
+        "method": "POST",
+        "path": "/apps/{type}/{name}/{version}"
+    },
+    {
+        "method": "DELETE",
+        "path": "/apps/{type}/{name}/{version}"
+    },
+    {
+        "method": "POST",
+        "path": "/tools/parseTaskTextToGraph"
+    },
+    {
+        "method": "POST",
+        "path": "/tools/convertTaskGraphToText"
+    },
+    {
+        "method": "GET",
+        "path": "/tasks/executions"
+    },
+    {
+        "method": "POST",
+        "path": "/tasks/executions"
+    },
+    {
+        "method": "DELETE",
+        "path": "/tasks/executions"
+    },
+    {
+        "method": "GET",
+        "path": "/tasks/executions/{id}"
+    },
+    {
+        "method": "POST",
+        "path": "/tasks/executions/{id}"
+    },
+    {
+        "method": "DELETE",
+        "path": "/tasks/executions/{id}"
+    },
+    {
+        "method": "POST",
+        "path": "/tasks/executions/launch"
+    },
+    {
+        "method": "GET",
+        "path": "/tasks/definitions"
+    },
+    {
+        "method": "POST",
+        "path": "/tasks/definitions"
+    },
+    {
+        "method": "DELETE",
+        "path": "/tasks/definitions"
+    },
+    {
+        "method": "GET",
+        "path": "/streams/deployments/{name}"
+    },
+    {
+        "method": "POST",
+        "path": "/streams/deployments/{name}"
+    },
+    {
+        "method": "DELETE",
+        "path": "/streams/deployments/{name}"
+    },
+    {
+        "method": "POST",
+        "path": "/streams/deployments/update/{name}"
+    },
+    {
+        "method": "POST",
+        "path": "/streams/deployments/scale/{streamName}/{appName}/instances/{count}"
+    },
+    {
+        "method": "POST",
+        "path": "/streams/deployments/rollback/{name}/{version}"
+    },
+    {
+        "method": "GET",
+        "path": "/streams/definitions"
+    },
+    {
+        "method": "POST",
+        "path": "/streams/definitions"
+    },
+    {
+        "method": "DELETE",
+        "path": "/streams/definitions"
+    },
+    {
+        "method": "POST",
+        "path": "/runtime/apps/{appId}/instances/{instanceId}/post"
+    },
+    {
+        "method": "GET",
+        "path": "/runtime/apps/{appId}/instances/{instanceId}/actuator"
+    },
+    {
+        "method": "POST",
+        "path": "/runtime/apps/{appId}/instances/{instanceId}/actuator"
+    },
+    {
+        "method": "GET",
+        "path": "/apps"
+    },
+    {
+        "method": "POST",
+        "path": "/apps"
+    },
+    {
+        "method": "DELETE",
+        "path": "/apps"
+    },
+    {
+        "method": "GET",
+        "path": "/apps/{type}/{name}"
+    },
+    {
+        "method": "POST",
+        "path": "/apps/{type}/{name}"
+    },
+    {
+        "method": "DELETE",
+        "path": "/apps/{type}/{name}"
+    },
+    {
+        "method": "GET",
+        "path": "/tasks/validation/{name}"
+    },
+    {
+        "method": "GET",
+        "path": "/tasks/thinexecutions"
+    },
+    {
+        "method": "GET",
+        "path": "/tasks/platforms"
+    },
+    {
+        "method": "GET",
+        "path": "/tasks/logs/{taskExternalExecutionId}"
+    },
+    {
+        "method": "GET",
+        "path": "/tasks/info/executions"
+    },
+    {
+        "method": "GET",
+        "path": "/tasks/executions/external/{externalExecutionId}"
+    },
+    {
+        "method": "GET",
+        "path": "/tasks/executions/current"
+    },
+    {
+        "method": "GET",
+        "path": "/tasks/definitions/{name}"
+    },
+    {
+        "method": "DELETE",
+        "path": "/tasks/definitions/{name}"
+    },
+    {
+        "method": "GET",
+        "path": "/tasks/ctr/options"
+    },
+    {
+        "method": "GET",
+        "path": "/streams/validation/{name}"
+    },
+    {
+        "method": "GET",
+        "path": "/streams/deployments/platform/list"
+    },
+    {
+        "method": "GET",
+        "path": "/streams/deployments/manifest/{name}/{version}"
+    },
+    {
+        "method": "GET",
+        "path": "/streams/deployments/history/{name}"
+    },
+    {
+        "method": "GET",
+        "path": "/streams/definitions/{name}"
+    },
+    {
+        "method": "DELETE",
+        "path": "/streams/definitions/{name}"
+    },
+    {
+        "method": "GET",
+        "path": "/streams/definitions/{name}/related"
+    },
+    {
+        "method": "GET",
+        "path": "/streams/definitions/{name}/applications"
+    },
+    {
+        "method": "GET",
+        "path": "/security/info"
+    },
+    {
+        "method": "GET",
+        "path": "/schema/versions"
+    },
+    {
+        "method": "GET",
+        "path": "/schema/targets"
+    },
+    {
+        "method": "GET",
+        "path": "/schema/targets/{schemaTarget}"
+    },
+    {
+        "method": "GET",
+        "path": "/runtime/streams"
+    },
+    {
+        "method": "GET",
+        "path": "/runtime/streams/{streamNames}"
+    },
+    {
+        "method": "GET",
+        "path": "/jobs/thinexecutions"
+    },
+    {
+        "method": "GET",
+        "path": "/jobs/instances"
+    },
+    {
+        "method": "GET",
+        "path": "/jobs/instances/{id}"
+    },
+    {
+        "method": "GET",
+        "path": "/jobs/executions"
+    },
+    {
+        "method": "GET",
+        "path": "/jobs/executions/{jobExecutionId}/steps"
+    },
+    {
+        "method": "GET",
+        "path": "/jobs/executions/{jobExecutionId}/steps/{stepExecutionId}"
+    },
+    {
+        "method": "GET",
+        "path": "/jobs/executions/{jobExecutionId}/steps/{stepExecutionId}/progress"
+    },
+    {
+        "method": "GET",
+        "path": "/jobs/executions/{id}"
+    },
+    {
+        "method": "GET",
+        "path": "/audit-records"
+    },
+    {
+        "method": "GET",
+        "path": "/audit-records/{id}"
+    },
+    {
+        "method": "GET",
+        "path": "/audit-records/audit-operation-types"
+    },
+    {
+        "method": "GET",
+        "path": "/audit-records/audit-action-types"
+    },
+    {
+        "method": "GET",
+        "path": "/about"
+    },
+    {
+        "method": "DELETE",
+        "path": "/streams/deployments"
+    },
+    {
+        "method": "GET",
+        "path": "/streams/logs/{streamName}"
+    },
+    {
+        "method": "PUT",
+        "path": "/streams/logs/{streamName}"
+    },
+    {
+        "method": "POST",
+        "path": "/streams/logs/{streamName}"
+    },
+    {
+        "method": "DELETE",
+        "path": "/streams/logs/{streamName}"
+    },
+    {
+        "method": "GET",
+        "path": "/streams/logs/{streamName}/{appName}"
+    },
+    {
+        "method": "PUT",
+        "path": "/streams/logs/{streamName}/{appName}"
+    },
+    {
+        "method": "POST",
+        "path": "/streams/logs/{streamName}/{appName}"
+    },
+    {
+        "method": "DELETE",
+        "path": "/streams/logs/{streamName}/{appName}"
+    },
+    {
+        "method": "GET",
+        "path": "/runtime/apps"
+    },
+    {
+        "method": "PUT",
+        "path": "/runtime/apps"
+    },
+    {
+        "method": "POST",
+        "path": "/runtime/apps"
+    },
+    {
+        "method": "DELETE",
+        "path": "/runtime/apps"
+    },
+    {
+        "method": "GET",
+        "path": "/runtime/apps/{appId}"
+    },
+    {
+        "method": "PUT",
+        "path": "/runtime/apps/{appId}"
+    },
+    {
+        "method": "POST",
+        "path": "/runtime/apps/{appId}"
+    },
+    {
+        "method": "DELETE",
+        "path": "/runtime/apps/{appId}"
+    },
+    {
+        "method": "GET",
+        "path": "/runtime/apps/{appId}/instances"
+    },
+    {
+        "method": "PUT",
+        "path": "/runtime/apps/{appId}/instances"
+    },
+    {
+        "method": "POST",
+        "path": "/runtime/apps/{appId}/instances"
+    },
+    {
+        "method": "DELETE",
+        "path": "/runtime/apps/{appId}/instances"
+    },
+    {
+        "method": "GET",
+        "path": "/runtime/apps/{appId}/instances/{instanceId}"
+    },
+    {
+        "method": "PUT",
+        "path": "/runtime/apps/{appId}/instances/{instanceId}"
+    },
+    {
+        "method": "POST",
+        "path": "/runtime/apps/{appId}/instances/{instanceId}"
+    },
+    {
+        "method": "DELETE",
+        "path": "/runtime/apps/{appId}/instances/{instanceId}"
+    },
+    {
+        "method": "GET",
+        "path": "/completions/task"
+    },
+    {
+        "method": "PUT",
+        "path": "/completions/task"
+    },
+    {
+        "method": "POST",
+        "path": "/completions/task"
+    },
+    {
+        "method": "DELETE",
+        "path": "/completions/task"
+    },
+    {
+        "method": "GET",
+        "path": "/completions/stream"
+    },
+    {
+        "method": "PUT",
+        "path": "/completions/stream"
+    },
+    {
+        "method": "POST",
+        "path": "/completions/stream"
+    },
+    {
+        "method": "DELETE",
+        "path": "/completions/stream"
+    },
+    {
+        "method": "GET",
+        "path": "/"
+    },
+    {
+        "method": "PUT",
+        "path": "/"
+    },
+    {
+        "method": "POST",
+        "path": "/"
+    },
+    {
+        "method": "DELETE",
+        "path": "/"
+    }
+]
