@@ -1,6 +1,6 @@
 import json, csv
 from faker import Faker
-from scripts.helper import generate_request_data, execute_ab_request
+from helper import generate_request_data, execute_ab_request
 from concurrent.futures import ThreadPoolExecutor
 
 # GLOBAL CONSTANTS
@@ -9,10 +9,10 @@ MICROSERVICE = "spring"
 API_SPEC_FILE = f"./{MICROSERVICE}/documents/scdf_endpoints.json"
 RESULTS_FILE = f"./results/{MICROSERVICE}_attack_results.csv"
 DEBUG = True
-BOTTLENECK_THRESHOLD = 500 # milliseconds
-N_REQUESTS = 7000
-N_CONCURRENCY = 20
-MAX_API_TO_ATTACK = 10
+BOTTLENECK_THRESHOLD = 0 # milliseconds
+N_REQUESTS = 100
+N_CONCURRENCY = 100
+MAX_API_TO_ATTACK = 30
 
 
 def send_ab_requests_from_api_spec(api_spec, verbose=True, max_workers=10):
