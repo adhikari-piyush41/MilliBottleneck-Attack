@@ -1,2 +1,2 @@
-# BlindMilliBottleneck
-Blind Milli Bottleneck Attack!
+# MilliBottleneck
+Milli Bottleneck Attack!
